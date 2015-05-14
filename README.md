@@ -1,4 +1,4 @@
-# your-first-NSLog
+# Write Your First Program
 For your first task in xcode, print something to the console!
 
 Instructions
@@ -16,7 +16,7 @@ Instructions
 
 Here's a helpful image if you're having trouble:
  
-![](./your-first-nslog-screenshot.png)
+![](http://curriculum-content.s3.amazonaws.com/ios/ios-your-first-NSLog/your-first-nslog-screenshot.png)
 
 Extra Info
 ---
