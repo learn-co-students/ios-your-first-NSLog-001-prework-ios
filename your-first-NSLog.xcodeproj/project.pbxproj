@@ -13,7 +13,6 @@
 		E26B4D581B051A5B001AE926 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26B4D561B051A5B001AE926 /* LaunchScreen.xib */; };
 		E26B4D641B051A5B001AE926 /* your_first_NSLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B4D631B051A5B001AE926 /* your_first_NSLogTests.m */; };
 		E26B4D701B051D6F001AE926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26B4D6D1B051D6F001AE926 /* Main.storyboard */; };
-		E26B4D711B051D6F001AE926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B4D6E1B051D6F001AE926 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		E26B4D621B051A5B001AE926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26B4D631B051A5B001AE926 /* your_first_NSLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = your_first_NSLogTests.m; sourceTree = "<group>"; };
 		E26B4D6D1B051D6F001AE926 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		E26B4D6E1B051D6F001AE926 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E26B4D6F1B051D6F001AE926 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +80,6 @@
 			children = (
 				E26B4D4B1B051A5B001AE926 /* FISAppDelegate.h */,
 				E26B4D4C1B051A5B001AE926 /* FISAppDelegate.m */,
-				E26B4D6E1B051D6F001AE926 /* ViewController.m */,
-				E26B4D6F1B051D6F001AE926 /* ViewController.h */,
 				E26B4D6D1B051D6F001AE926 /* Main.storyboard */,
 				E26B4D541B051A5B001AE926 /* Images.xcassets */,
 				E26B4D561B051A5B001AE926 /* LaunchScreen.xib */,
@@ -219,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26B4D711B051D6F001AE926 /* ViewController.m in Sources */,
 				E26B4D4D1B051A5B001AE926 /* FISAppDelegate.m in Sources */,
 				E26B4D4A1B051A5B001AE926 /* main.m in Sources */,
 			);
