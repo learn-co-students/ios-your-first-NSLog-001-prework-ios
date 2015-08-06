@@ -11,7 +11,7 @@ In the previous reading we surveyed the layout of Xcode's tools. For this first 
 
 ## Instructions
 ---
- 1. Open the provided Xcode project inside the lab's directory (`your-first-NSLog.xcodeproj`). Explore the different areas of Xcode that the reading just discuessed.
+ 1. Open the provided Xcode project inside the lab's directory (`your-first-NSLog.xcodeproj`). Explore the different areas of Xcode that the reading just discussed.
  2. In your Project Navigator, look for the file named `FISAppDelegate.m` (this is the "i**m**plementation" file for the `FISAppDelegate` class). It's within this file that you'll be writing your first line of Objective-C ! Look for this block of code, it's where you'll be adding your first `NSLog()`:
  
    ```objc
