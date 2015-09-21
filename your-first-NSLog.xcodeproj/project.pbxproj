@@ -11,19 +11,8 @@
 		E26B4D4D1B051A5B001AE926 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B4D4C1B051A5B001AE926 /* FISAppDelegate.m */; };
 		E26B4D551B051A5B001AE926 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26B4D541B051A5B001AE926 /* Images.xcassets */; };
 		E26B4D581B051A5B001AE926 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26B4D561B051A5B001AE926 /* LaunchScreen.xib */; };
-		E26B4D641B051A5B001AE926 /* your_first_NSLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E26B4D631B051A5B001AE926 /* your_first_NSLogTests.m */; };
 		E26B4D701B051D6F001AE926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26B4D6D1B051D6F001AE926 /* Main.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E26B4D5E1B051A5B001AE926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E26B4D3C1B051A5B001AE926 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E26B4D431B051A5B001AE926;
-			remoteInfo = "your-first-NSLog";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E26B4D441B051A5B001AE926 /* your-first-NSLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "your-first-NSLog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,21 +22,11 @@
 		E26B4D4C1B051A5B001AE926 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		E26B4D541B051A5B001AE926 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E26B4D571B051A5B001AE926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E26B4D5D1B051A5B001AE926 /* your-first-NSLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "your-first-NSLogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E26B4D621B051A5B001AE926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E26B4D631B051A5B001AE926 /* your_first_NSLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = your_first_NSLogTests.m; sourceTree = "<group>"; };
 		E26B4D6D1B051D6F001AE926 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E26B4D411B051A5B001AE926 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E26B4D5A1B051A5B001AE926 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				E26B4D461B051A5B001AE926 /* your-first-NSLog */,
-				E26B4D601B051A5B001AE926 /* your-first-NSLogTests */,
 				E26B4D451B051A5B001AE926 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				E26B4D441B051A5B001AE926 /* your-first-NSLog.app */,
-				E26B4D5D1B051A5B001AE926 /* your-first-NSLogTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,23 +74,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E26B4D601B051A5B001AE926 /* your-first-NSLogTests */ = {
-			isa = PBXGroup;
-			children = (
-				E26B4D631B051A5B001AE926 /* your_first_NSLogTests.m */,
-				E26B4D611B051A5B001AE926 /* Supporting Files */,
-			);
-			path = "your-first-NSLogTests";
-			sourceTree = "<group>";
-		};
-		E26B4D611B051A5B001AE926 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E26B4D621B051A5B001AE926 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,24 +94,6 @@
 			productReference = E26B4D441B051A5B001AE926 /* your-first-NSLog.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E26B4D5C1B051A5B001AE926 /* your-first-NSLogTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E26B4D6A1B051A5B001AE926 /* Build configuration list for PBXNativeTarget "your-first-NSLogTests" */;
-			buildPhases = (
-				E26B4D591B051A5B001AE926 /* Sources */,
-				E26B4D5A1B051A5B001AE926 /* Frameworks */,
-				E26B4D5B1B051A5B001AE926 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E26B4D5F1B051A5B001AE926 /* PBXTargetDependency */,
-			);
-			name = "your-first-NSLogTests";
-			productName = "your-first-NSLogTests";
-			productReference = E26B4D5D1B051A5B001AE926 /* your-first-NSLogTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,10 +105,6 @@
 				TargetAttributes = {
 					E26B4D431B051A5B001AE926 = {
 						CreatedOnToolsVersion = 6.3.1;
-					};
-					E26B4D5C1B051A5B001AE926 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = E26B4D431B051A5B001AE926;
 					};
 				};
 			};
@@ -184,7 +122,6 @@
 			projectRoot = "";
 			targets = (
 				E26B4D431B051A5B001AE926 /* your-first-NSLog */,
-				E26B4D5C1B051A5B001AE926 /* your-first-NSLogTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,13 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26B4D5B1B051A5B001AE926 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,23 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E26B4D591B051A5B001AE926 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E26B4D641B051A5B001AE926 /* your_first_NSLogTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E26B4D5F1B051A5B001AE926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E26B4D431B051A5B001AE926 /* your-first-NSLog */;
-			targetProxy = E26B4D5E1B051A5B001AE926 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E26B4D561B051A5B001AE926 /* LaunchScreen.xib */ = {
@@ -349,40 +263,6 @@
 			};
 			name = Release;
 		};
-		E26B4D6B1B051A5B001AE926 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "your-first-NSLogTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/your-first-NSLog.app/your-first-NSLog";
-			};
-			name = Debug;
-		};
-		E26B4D6C1B051A5B001AE926 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "your-first-NSLogTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/your-first-NSLog.app/your-first-NSLog";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,15 +280,6 @@
 			buildConfigurations = (
 				E26B4D681B051A5B001AE926 /* Debug */,
 				E26B4D691B051A5B001AE926 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E26B4D6A1B051A5B001AE926 /* Build configuration list for PBXNativeTarget "your-first-NSLogTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E26B4D6B1B051A5B001AE926 /* Debug */,
-				E26B4D6C1B051A5B001AE926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
